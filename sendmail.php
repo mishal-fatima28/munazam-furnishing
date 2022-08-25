@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 		$mail->Port = 587;
 
 		$mail->setFrom('munazamfurnishing@gmail.com');
-		$mail->addAddress('mishalfatima28@gmail.com');
+		$mail->addAddress('munazzamshaikh@gmail.com');
 
 		$mail->isHTML(true);
 		$mail->Subject = 'Munazam Furnishing Query';
