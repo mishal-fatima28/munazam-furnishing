@@ -675,8 +675,20 @@ header .text p:last-child {
     padding-top: 128px;
     padding-bottom: 20px;
     background-color: #3a3d45;
+    position: relative;
     background-size: cover;
     background-position: center;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
 }
 
 .main-header header, .main-header .title {
@@ -686,6 +698,8 @@ header .text p:last-child {
 .main-header header {
     margin-bottom: 5px;
 }
+
+
 
 @media (min-width: 992px) {
     .main-header {
@@ -823,6 +837,8 @@ nav .navigation-top {
 }
 
 nav .navigation-top > ul {
+
+    margin-top: 10px;
     text-align: right;
     height: 28px;
     overflow: hidden;
@@ -1782,6 +1798,17 @@ nav .cart-wrapper.open {
     background-size: cover;
 }
 
+.header-content .item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+}
+
 .header-content .item .box {
     position: absolute;
     width: 100%;
@@ -1891,6 +1918,14 @@ nav .cart-wrapper.open {
 }
 
 @media (max-width: 768px) {
+
+    .header-content .item .title.animated.h1 {
+        font-size: 27px;
+    }
+
+    .header-content .item .animated {
+        font-size: 15px;
+    }
     .blocks > div {
         display: flex;
         flex-flow: column;
@@ -1917,6 +1952,15 @@ nav .cart-wrapper.open {
     .blocks.blocks-boxed .text {
         padding: 20px 0 0 0;
     }
+
+    p {
+        font-size: 15px;
+    }
+
+    .info-icons figure figcaption > span > strong {
+        font-size: 15px;
+    }
+
 }
 
 /*  
@@ -4113,11 +4157,22 @@ nav .cart-wrapper.open {
 }
 
 .stretcher-wrapper .stretcher .stretcher-item .stretcher-logo .text .f-icon {
-    font-size: 100px;
+    height: 80px;
+    width: 80px;
+    font-size: 70px;
+     background-color: rgba(255, 187, 0, 0.8);
+    border-radius: 10px;
 }
 
 .stretcher-wrapper .stretcher .stretcher-item .stretcher-logo .text .text-intro {
-    display: block;
+    display: block; 
+    margin-top: 10px;
+    padding-top: 2px;
+    height: 25px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgba(255, 187, 0, 0.8);
+    border-radius: 10px;
 }
 
 .stretcher-wrapper .stretcher .stretcher-item:hover .stretcher-logo {
@@ -4896,6 +4951,7 @@ nav .cart-wrapper.open {
 .contact {
     background-color: #eeeeee;
     padding: 0 0 80px 0;
+    margin-top: -15px;
 }
 
 .contact.contact-single {
@@ -5773,6 +5829,8 @@ nav .cart-wrapper.open {
 
 
 .owl-icons-wrapper .owl-icons figure .f-icon {
+
+
     font-size: 70px;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -6272,4 +6330,27 @@ footer .footer-social li a {
         border: 2px solid black;
 
     }
+}
+
+.float{
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:40px;
+    right:30px;
+    background-color:#ffbb00;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:25px;
+  z-index:100;
+}
+
+.my-float{
+    margin-top:13px;
+}
+
+.float:hover {
+        color:#FFF;
+
 }

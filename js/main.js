@@ -1,4 +1,42 @@
-﻿$(function () {
+﻿// var dataReload = document.querySelectorAll("[data-reload]")
+// var data = {
+
+//     "english": {
+//         "title": "Hi this is me",
+//         "p1": "Our service team is dedicated to providing you with the finest furnishings. Check out what's new in our catalogue."
+//     },
+//     "arabic": {
+//         "heading1": "منظم مفروشات",
+//         "p1": "فريق الخدمة لدينا مكرس لتزويدك بأرقى المفروشات. تحقق من الجديد في الكتالوج الخاص بنا.",
+//         "heading2": "!جعله خاصا بك",
+//         "p2": "نصنع المجالس والأرائك والسرير ولوحات الكراسي وورق الحائط والشيزلون والمزيد.",
+//         "heading3": "!جعله خاصا بك"
+
+       
+
+//     }
+    
+// }
+
+// if (window.location.hash){
+//     if(window.location.hash === "#ara"){
+//         heading1.textContent = data.arabic.heading1
+//         heading2.textContent = data.arabic.heading2
+//         heading3.textContent = data.arabic.heading3
+//         p1.textContent = data.arabic.p1
+//         p2.textContent = data.arabic.p2
+
+//     } 
+// }
+
+// function reloadPage() {
+//     setTimeout(function () {
+//       location.reload();
+//     }, 100);
+// }
+
+
+$(function () {
 
     "use strict";
 
@@ -291,37 +329,7 @@
     });
 
 
-    // Scroll to top
-    // ----------------------------------------------------------------
 
-    var $wrapper = $('.wrapper');
-    $wrapper.append($("<div class='scroll-top'><i class='icon icon-chevron-up'></i></div>"));
-
-    var $scrollbtn = $('.scroll-top');
-
-    $(document).on('ready scroll', function () {
-        var docScrollTop = $(document).scrollTop(),
-            docScrollBottom = $(window).scrollTop() + $(window).height() == $(document).height();
-
-        if (docScrollTop >= 150) {
-            $scrollbtn.addClass('visible');
-        } else {
-            $scrollbtn.removeClass('visible');
-        }
-        if (docScrollBottom) {
-            $scrollbtn.addClass('active');
-        }
-        else {
-            $scrollbtn.removeClass('active');
-        }
-    });
-
-    $scrollbtn.on('click', function () {
-        $('html,body').animate({
-            scrollTop: $('body').offset().top
-        }, 1000);
-        return false;
-    });
 
     // Product color var
     // ----------------------------------------------------------------
@@ -679,6 +687,7 @@ $(window).bind('load', function () {
         $('.page-loader').addClass('loaded');
     }, 1000);
 });
+
 
 
 

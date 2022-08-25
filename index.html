@@ -45,7 +45,10 @@
 
 <body>
 
+
+
     <div class="page-loader"></div>
+
 
     <div class="wrapper">
 
@@ -68,6 +71,7 @@
                         <li><a href="https://www.instagram.com/munazamfurnishing/"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://twitter.com/MunazamFurnish"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/munazam-furnishing-b14054249/"><i class="fa fa-linkedin"></i></a></li>
+                        
 
                     </ul>
                 </div> <!--/navigation-top-->
@@ -99,6 +103,25 @@
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="products.html">Products</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
+                            
+                           <!-- <li>
+                                <a href="#">Language <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <div class="navbar-dropdown navbar-dropdown-single">
+                                    <div class="navbar-box">
+
+                                        box-2 (without 'box-1', box-2 will be displayed as full width)
+
+                                        <div class="box-2">
+                                            <div class="box clearfix">
+                                                <ul>
+                                                    <li><a href="#eng" onclick = "reloadPage()" data-reload>English</a></li>
+                                                    <li><a href="#ara" onclick = "reloadPage()" data-reload>Arabic</a></li>    
+                                                </ul>
+                                            </div> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </li> -->
                             <!-- Simple menu link-->
                         </ul>
                     </div> <!--/floating-menu-->
@@ -119,12 +142,13 @@
                 <div class="item" style="background-image:url(assets/images/banners/slider2.jpg)">
                     <div class="box">
                         <div class="container text-center">
-                            <h2 class="title animated h1" data-animation="fadeInDown">Munazam Furnishing</h2>
-                            <div class="animated" data-animation="fadeInUp">
+                            <h2 id="heading1" class="title animated h1" data-animation="fadeInDown">Munazam Furnishing</h2>
+                            <div id="p1" class="animated" data-animation="fadeInUp">
                                 We provide smart solutions for modern living. <br> The place where you will get best furnishing at the best price.
                             </div>
                             <div class="animated" data-animation="fadeInUp">
                                 <a href="contact.html" class="btn btn-main">Shop Now</a>
+
                             </div>
                         </div>
                     </div>
@@ -135,8 +159,8 @@
                 <div class="item" style="background-image:url(assets/images/banners/slider1.jpg)">
                     <div class="box">
                         <div class="container text-center">
-                            <h2 class="title animated h1" data-animation="fadeInDown">Make It Your Own!</h2>
-                            <div class="animated" data-animation="fadeInUp">We make majlis, sofas, bed, chair paintings, <br /> wallpapers, shezlon and more.</div>
+                            <h2 id = "heading2" class="title animated h1" data-animation="fadeInDown">Make It Your Own!</h2>
+                            <div id="p2" class="animated" data-animation="fadeInUp">We make majlis, sofas, bed, chair paintings, <br /> wallpapers, shezlon and more.</div>
                            
                             <div class="animated" data-animation="fadeInUp">
                                 <a href="category.html" class="btn btn-clean">Get Insipred</a>
@@ -150,6 +174,8 @@
         </section>
 
         <!-- ========================  Icons slider ======================== -->
+
+
 
         <section class="owl-icons-wrapper owl-icons-frontpage">
 
@@ -313,6 +339,7 @@
 
          <!-- ========================  Stretcher widget ======================== -->
 
+
         <section class="stretcher-wrapper">
 
 
@@ -340,13 +367,13 @@
 
                 <!-- === stretcher item === -->
 
-                <li class="stretcher-item" style="background-image:url(assets/images/popular/bed.jpeg);">
+                <li class="stretcher-item" style="background-image:url(assets/images/popular/bed.jpg);">
                     
                     <!--logo-item-->
                     <div class="stretcher-logo">
                         <div class="text">
                             <span class="f-icon f-icon-bedroom"></span>
-                            <span class="text-intro">Bed</span>
+                            <span class="text-intro">BED</span>
                         </div>
                     </div>
                     <!--main text-->
@@ -363,12 +390,12 @@
 
                 <!-- === stretcher item === -->
 
-                <li class="stretcher-item" style="background-image:url(assets/images/popular/sofa.jpeg);">
+                <li class="stretcher-item" style="background-image:url(assets/images/popular/sofa.jpg);">
                     <!--logo-item-->
                     <div class="stretcher-logo">
                         <div class="text">
                             <span class="f-icon f-icon-sofa"></span>
-                            <span class="text-intro">Sofa</span>
+                            <span class="text-intro">SOFA</span>
                         </div>
                     </div>
                     <!--main text-->
@@ -382,12 +409,12 @@
 
                 <!-- === stretcher item === -->
 
-                <li class="stretcher-item" style="background-image:url(assets/images/popular/majlis.jpeg);">
+                <li class="stretcher-item" style="background-image:url(assets/images/popular/arabic.jpg);">
                     <!--logo-item-->
                     <div class="stretcher-logo">
                         <div class="text">
                             <span class="f-icon f-icon-carpet"></span>
-                            <span class="text-intro">Majlis</span>
+                            <span class="text-intro">MAJLIS</span>
                         </div>
                     </div>
                     <!--main text-->
@@ -401,12 +428,13 @@
 
                 <!-- === stretcher item === -->
 
-                <li class="stretcher-item" style="background-image:url(assets/images/popular/upholstery.jpeg);">
+                <li class="stretcher-item" style="background-image:url(assets/images/popular/upholstery.png);
+                ">
                     <!--logo-item-->
                     <div class="stretcher-logo">
                         <div class="text">
                             <span class="f-icon f-icon-armchair"></span>
-                            <span class="text-intro">Upholstery</span>
+                            <span class="text-intro">UPHOLSTERY</span>
                         </div>
                     </div>
                     <!--main text-->
@@ -741,10 +769,11 @@
                         </div>
                         <div class="col-sm-6 links">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                               
+                                    <li><a href="https://web.facebook.com/munazamfurnishing/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/munazamfurnishing/"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/MunazamFurnish"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/munazam-furnishing-b14054249/"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -752,9 +781,15 @@
             </div>
         </footer>
 
+        <a href="https://wa.me/0553618077 " class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i></a>
+
+
     </div> <!--/wrapper-->
 
     <!--JS files-->
+  
+   
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.bootstrap.js"></script>
     <script src="js/jquery.magnific-popup.js"></script>
