@@ -602,6 +602,7 @@ section {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -851,6 +852,7 @@ nav .navigation-top > ul {
 nav .navigation-top > ul > li > a {
     color: #ffbb00;
     padding: 5px 13px;
+    font-size: 20px;
 }
 
 nav .navigation-top > ul > li > a:hover {
@@ -1549,6 +1551,10 @@ nav .search-wrapper .search-results .search-result-items ul li a .category {
     nav .search-wrapper .search-results .search-result-items ul li a .category {
         display: block;
     }
+    nav .navigation-top > ul > li > a {
+
+    font-size: 15px;
+}
 }
 
 nav .search-wrapper .search-results .search-result-items .title {
@@ -6344,7 +6350,7 @@ footer .footer-social li a {
     height:50px;
     bottom:40px;
     right:30px;
-    background-color:#ffbb00;
+    background-color:#32a856;
     color:#FFF;
     border-radius:50px;
     text-align:center;
