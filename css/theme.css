@@ -3298,7 +3298,13 @@ nav .cart-wrapper.open {
 }
 
 .blog article .entry.entry-table .title {
-    padding-left: 10px;
+    
+    text-align: center;
+}
+
+.blog article .entry.entry-table .title h4 {
+    
+    margin-bottom: 10px;
 }
 
 .blog article .entry .date-wrapper {
