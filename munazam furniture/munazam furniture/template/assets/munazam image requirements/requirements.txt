@@ -1,0 +1,25 @@
+Requirements:
+
+logo: 141 * 50 png, 50 * 50 png
+
+2 main slider images 1920 * 1100
+https://www.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_18835794.htm#query=furniture&position=0&from_view=search
+httpswww.freepik.compremium-photomodern-vintage-interior-living-room-blueprint-home-decor-concept-green-couch-with-marble-table-blue-wall-hardwood-flooring-3d-render_6662928.htm#query=furniture%20yellow&position=5&from_view=search
+
+4 category images: 1920 * 1100
+https://www.freepik.com/free-photo/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background_8868697.htm#query=sofa%20furniture&position=0&from_view=search
+https://www.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_24803801.htm#query=bed%20furniture&position=6&from_view=search
+https://www.freepik.com/premium-photo/empty-vintage-royal-blue-armchair-against-black-background_3440385.htm#query=luxury%20armchair&position=16&from_view=search
+
+
+banner images: 1920 * 1100
+https://www.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_17851168.htm#query=furniture&position=2&from_view=search
+https://www.freepik.com/free-photo/living-room-interior-wall-dark-tones-with-leather-armchair-black-wooden-wall-3d-rendering_14651630.htm#query=furniture&position=35&from_view=search
+https://www.freepik.com/free-photo/green-sofa-with-table-green-wall-wooden-flooring_27054554.htm?query=bedroom%20furniture
+https://www.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_2448708.htm#query=bedroom%20furniture&position=1&from_view=search
+https://www.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-shelf_24803829.htm?query=bedroom%20furniture
+https://www.freepik.com/free-photo/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall_13109580.htm?query=bedroom%20furniture
+https://www.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_24246970.htm?query=bedroom%20furniture
+
+6 instagram images from folder: 320 * 320
+5 products images each category from folder: 640 * 391
