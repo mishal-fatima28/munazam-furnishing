@@ -17,18 +17,12 @@ function translate(lng, tagAttr){
     // document.querySelectorAll("nav .navigation .floating-menu ul li .arabic")[0].style.fontSize = "50px";
     
     // document.querySelectorAll(".blog .title")[0].style.fontSize = "50px";
-    //     document.querySelectorAll(".cards header .title")[0].style.fontSize = "50px";
-    //             document.querySelectorAll(".banner .title")[0].style.fontSize = "50px";
-    //                             document.querySelectorAll(".testi header .title")[0].style.fontSize = "50px";
+    // document.querySelectorAll(".cards header .title")[0].style.fontSize = "50px";
+    // document.querySelectorAll(".banner .title")[0].style.fontSize = "50px";
+    // document.querySelectorAll(".testi header .title")[0].style.fontSize = "50px";
+    document.getElementsByTagName("body")[0].style.fontFamily = "arabicfonts";
 
 
-
-    
-
-
-
-
-     
     }
 }
 $(document).ready(function(){

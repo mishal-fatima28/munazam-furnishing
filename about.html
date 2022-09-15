@@ -16,7 +16,7 @@
      <link rel="icon" href="assets/images/icon.png" type="image">
 
     <!--Title-->
-    <title>Munazam Furnishing</title>
+    <title>Munazam Furnishing | About</title>
 
     <!--CSS styles-->
     <link rel="stylesheet" media="all" href="css/bootstrap.css" />
@@ -51,65 +51,102 @@
         <!--If you use "navbar-fixed" it will be sticky menu on scroll (only for large screens)-->
 
         <!-- ======================== Navigation ======================== -->
+<nav class="navbar-fixed">
 
-         <nav class="navbar-fixed">
+    <div class="container">
 
-            <div class="container">
+        <!-- ==========  Top navigation ========== -->
 
-                <!-- ==========  Top navigation ========== -->
+        <div class="navigation navigation-top clearfix">
+            <ul>
+                <!--add active class for current page-->
 
-                 <div class="navigation navigation-top clearfix">
-                    <ul>
-                        <!--add active class for current page-->
+                <li><a style="font-size:18px;" href="https://web.facebook.com/munazamfurnishing/"><i
+                            class="fa fa-facebook"></i></a></li>
+                <li><a style="font-size:18px;" href="https://www.instagram.com/munazzam.furnishing/"><i
+                            class="fa fa-instagram"></i></a></li>
+                <li><a style="font-size:18px;" href="https://twitter.com/MunazamFurnish"><i
+                            class="fa fa-twitter"></i></a></li>
+                <li><a style="font-size:18px;" href="mailto:munazzamshaikh@gmail.com"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li><a style="font-weight: 500;" id="enTranslator" href="javascript:void(0)">English</a></li>
+                <li><a style="font-weight: 500;" id="arTranslator" href="javascript:void(0)">Arabic</a></li>
 
-                        <li><a href="https://web.facebook.com/munazamfurnishing/"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/munazzam.furnishing/"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com/MunazamFurnish"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="mailto:munazzamshaikh@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                        <li><a id="enTranslator" href="javascript:void(0)">English</a></li>
-                        <li><a id="arTranslator" href="javascript:void(0)">Arabic</a></li>
 
-                    </ul>
-                </div>  <!--/navigation-top-->
+            </ul>
+        </div>
+        <!--/navigation-top-->
 
-                <!-- ==========  Main navigation ========== -->
+        <!-- ==========  Main navigation ========== -->
 
-                <div class="navigation navigation-main">
+        <div class="navigation navigation-main">
 
-                    <!-- Setup your logo here-->
+            <!-- Setup your logo here-->
 
-                    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="" /></a>
+            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="" /></a>
 
-                    <!-- Mobile toggle menu -->
+            <!-- Mobile toggle menu -->
 
-                    <a href="#" class="open-menu"><i class="icon icon-menu"></i></a>
+            <a href="#" class="open-menu"><i class="icon icon-menu"></i></a>
 
-                    <!-- Convertible menu (mobile/desktop)-->
+            <!-- Convertible menu (mobile/desktop)-->
 
-                    <div class="floating-menu">
+            <div class="floating-menu">
 
-                        <!-- Mobile toggle menu trigger-->
+                <!-- Mobile toggle menu trigger-->
 
-                        <div class="close-menu-wrapper">
-                            <span class="close-menu"><i class="icon icon-cross"></i></span>
+                <div class="close-menu-wrapper">
+                    <span class="close-menu"><i class="icon icon-cross"></i></span>
+                </div>
+
+                <ul>
+                    <li><a class="arabic" href="index.html" lng-tag="home">Home</a></li>
+                    <li><a class="arabic" href="about.html" lng-tag="about">About Us</a></li>
+                    <li>
+                        <a class="arabic" href="#" lng-tag="products">Products <span class="open-dropdown"><i
+                                    class="fa fa-angle-down"></i></span></a>
+                        <div class="navbar-dropdown navbar-dropdown-single">
+                            <div class="navbar-box">
+                                <div class="box-2">
+                                    <div class="box clearfix">
+                                        <ul>
+                                            <li class="label" lng-tag="popular_categories">Categories</li>
+                                            <li><a href="curtains.html" lng-tag="curtains">Curtains</a></li>
+                                            <li><a href="sofa-and-majlis.html" lng-tag="sofa_arabic_majlis">Sofa &
+                                                    Arabic Majlis</a></li>
+                                            <li><a href="sofa-upholstery-and-repaint.html"
+                                                    lng-tag="sofa_upholstery_repaint">Sofa Upholstery & Repaint</a></li>
+                                            <li><a href="carpets.html" lng-tag="carpets_rugs">Carpets & Rugs</a></li>
+                                            <li><a href="wall-upholstery.html" lng-tag="wall_upholstery">Wall
+                                                    Upholstery</a></li>
+                                            <li><a href="beds.html" lng-tag="new_modern_beds">New Modern Beds</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                    <!--/box-->
+                                </div>
+                                <!--/box-2-->
+                            </div>
+                            <!--/navbar-box-->
                         </div>
+                        <!--/navbar-dropdown-->
+                    </li>
+                    <li><a class="arabic" href="contact.html" lng-tag="contact">Contact Us</a></li>
 
-                    <ul>
-                        <li><a href="index.html" lng-tag="home">Home</a></li>
-                        <li><a href="about.html" lng-tag="about">About Us</a></li>
-                        <li><a href="products.html" lng-tag="products">Products</a></li>
-                        <li><a href="contact.html" lng-tag="contact">Contact Us</a></li>
-                        
-                    
-                        <!-- Simple menu link-->
-                    </ul>
-                    </div> <!--/floating-menu-->
-                </div> <!--/navigation-main-->
 
-                
-            </div> <!--/container-->
-        </nav>
 
+                    <!-- Simple menu link-->
+                </ul>
+            </div>
+            <!--/floating-menu-->
+        </div>
+        <!--/navigation-main-->
+
+
+    </div>
+    <!--/container-->
+</nav>
         <!-- ========================  Main header ======================== -->
 
         <section class="main-header main-header-blog" style="background-image:url(assets/images/banners/banner1.jpg)">
@@ -429,58 +466,65 @@
         </section>
 
         <!-- ================== Footer  ================== -->
-        <footer>
-            <div class="container">
-        
-                <!--footer showroom-->
-                <div class="footer-showroom footer-showroom-single">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2 lng-tag="visit_our_showroom">Visit our showroom</h2>
-                            <p lng-tag="address">Beside FAB bank, Baniyas center Road, Sharq 9, Abu Dhabi </p>
-                            <p lng-tag="timings">Mon - Sat: 10 am - 6 pm &nbsp; &nbsp; | &nbsp; &nbsp; Sun: 12pm - 2 pm</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <!--footer links-->
-                            <div class="footer-links">
-                                <h2 lng-tag="our_contact_details">Our Contact Details</h2>
-                                <p><i style="font-size: 16px; margin-right: 10px;" class="fa fa-whatsapp"></i>050 707 2004 &nbsp; &nbsp; |
-                                    &nbsp; &nbsp; <i style="margin-right: 10px; font-size: 16px;" class="fa fa-phone"></i>02 583 4119 </p>
-                                <p><i style="font-size: 22px; margin-right: 10px;" class="fa fa-mobile"></i> 052 604 5355 &nbsp; &nbsp; | &nbsp;
-                                    &nbsp; <i style="font-size: 22px; margin-right: 10px;" class="fa fa-mobile"></i> 055 887 1899</p>
-                            </div>
-                        </div>
+    <footer>
+        <div class="container">
+    
+            <!--footer showroom-->
+            <div class="footer-showroom footer-showroom-single">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 lng-tag="visit_our_showroom">Visit our showroom</h2>
+                        <p lng-tag="address">Beside FAB bank, Baniyas center Road, Sharq 9, Abu Dhabi </p>
+                        <p lng-tag="timings">Mon - Sat: 10 am - 6 pm &nbsp; &nbsp; | &nbsp; &nbsp; Sun: 12pm - 2 pm</p>
                     </div>
-                </div>
-        
-                <!--footer social-->
-        
-                <div class="footer-social">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a href="#">Copyright &copy; Munazam Furnishing</a>
-                        </div>
-                        <div class="col-sm-6 links">
-                            <ul>
-        
-                                <li><a href="https://web.facebook.com/munazamfurnishing/"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://www.instagram.com/munazzam.furnishing/"><i class="fa fa-instagram"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/MunazamFurnish"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="mailto:munazzamshaikh@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                            </ul>
+                    <div class="col-sm-6">
+                        <!--footer links-->
+                        <div class="footer-links">
+                            <h2 lng-tag="our_contact_details">Our Contact Details</h2>
+                            <p><i style="font-size: 16px; margin-right: 10px;" class="fa fa-whatsapp"></i>050 707 2004
+                                &nbsp; &nbsp; | &nbsp; &nbsp; <i style="margin-right: 10px; font-size: 16px;"
+                                    class="fa fa-phone"></i>02 583 4119 </p>
+                            <p><i style="font-size: 22px; margin-right: 10px;" class="fa fa-mobile"></i> 052 604 5355 &nbsp;
+                                &nbsp; | &nbsp; &nbsp; <i style="font-size: 22px; margin-right: 10px;"
+                                    class="fa fa-mobile"></i> 055 887 1899</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <a href="https://wa.me/+9710553618077 " class="float" target="_blank">
+    
+            <!--footer social-->
+    
+            <div class="footer-social">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="#">Copyright &copy; Munazam Furnishing</a>
+                    </div>
+                    <div class="col-sm-6 links">
+                        <ul>
+    
+                            <li><a href="https://web.facebook.com/munazamfurnishing/"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/munazzam.furnishing/"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/MunazamFurnish"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="mailto:munazzamshaikh@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <a style="background-color:#32a856;" href="https://wa.me/+9710507072004 " class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i></a>
-    </div> <!--/wrapper-->
-
-
+    
+    
+    </div>
+    <!--/wrapper-->
+    
     <!--JS files-->
+    
+    
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.bootstrap.js"></script>
     <script src="js/jquery.magnific-popup.js"></script>
