@@ -1,39 +1,48 @@
-﻿// var dataReload = document.querySelectorAll("[data-reload]")
-// var data = {
+﻿
 
-//     "english": {
-//         "title": "Hi this is me",
-//         "p1": "Our service team is dedicated to providing you with the finest furnishings. Check out what's new in our catalogue."
-//     },
-//     "arabic": {
-//         "heading1": "منظم مفروشات",
-//         "p1": "فريق الخدمة لدينا مكرس لتزويدك بأرقى المفروشات. تحقق من الجديد في الكتالوج الخاص بنا.",
-//         "heading2": "!جعله خاصا بك",
-//         "p2": "نصنع المجالس والأرائك والسرير ولوحات الكراسي وورق الحائط والشيزلون والمزيد.",
-//         "heading3": "!جعله خاصا بك"
 
-       
 
-//     }
+//This function will be called when user click changing language
+function translate(lng, tagAttr){
+    var translate = new Translate();
+    translate.init(tagAttr, lng);
+    translate.process();
+    if(lng == 'en'){
+      $("#enTranslator").css('color', '#ffbb00');
+      $("#arTranslator").css('color', '#ffffff');
+    } 
+    if(lng == 'ar'){
+      $("#arTranslator").css('color', '#ffbb00');
+      $("#enTranslator").css('color', '#ffffff');
+    // document.querySelectorAll("nav .navigation .floating-menu ul li .arabic")[0].style.fontSize = "50px";
     
-// }
+    // document.querySelectorAll(".blog .title")[0].style.fontSize = "50px";
+    //     document.querySelectorAll(".cards header .title")[0].style.fontSize = "50px";
+    //             document.querySelectorAll(".banner .title")[0].style.fontSize = "50px";
+    //                             document.querySelectorAll(".testi header .title")[0].style.fontSize = "50px";
 
-// if (window.location.hash){
-//     if(window.location.hash === "#ara"){
-//         heading1.textContent = data.arabic.heading1
-//         heading2.textContent = data.arabic.heading2
-//         heading3.textContent = data.arabic.heading3
-//         p1.textContent = data.arabic.p1
-//         p2.textContent = data.arabic.p2
 
-//     } 
-// }
 
-// function reloadPage() {
-//     setTimeout(function () {
-//       location.reload();
-//     }, 100);
-// }
+    
+
+
+
+
+     
+    }
+}
+$(document).ready(function(){
+  //This is id of HTML element (English) with attribute lng-tag
+  $("#enTranslator").click(function(){
+    translate('en', 'lng-tag');
+  });
+  //This is id of HTML element (Arabic) with attribute lng-tag
+  $("#arTranslator").click(function(){
+    translate('ar', 'lng-tag');
+
+     
+  });
+});
 
 
 $(function () {
@@ -686,7 +695,10 @@ $(window).bind('load', function () {
     setTimeout(function () {
         $('.page-loader').addClass('loaded');
     }, 1000);
+   
 });
+
+
 
 
 

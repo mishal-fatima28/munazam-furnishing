@@ -41,7 +41,7 @@
 
 </head>
 
-<body>
+<body id="page-top" onload="translate('ar','lng-tag')">
 
     <div class="page-loader"></div>
 
@@ -66,6 +66,8 @@
                         <li><a href="https://www.instagram.com/munazzam.furnishing/"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://twitter.com/MunazamFurnish"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="mailto:munazzamshaikh@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        <li><a id="enTranslator" href="javascript:void(0)">English</a></li>
+                        <li><a id="arTranslator" href="javascript:void(0)">Arabic</a></li>
 
                     </ul>
                 </div>  <!--/navigation-top-->
@@ -92,14 +94,15 @@
                             <span class="close-menu"><i class="icon icon-cross"></i></span>
                         </div>
 
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="products.html">Products</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            
-                            <!-- Simple menu link-->
-                        </ul>
+                    <ul>
+                        <li><a href="index.html" lng-tag="home">Home</a></li>
+                        <li><a href="about.html" lng-tag="about">About Us</a></li>
+                        <li><a href="products.html" lng-tag="products">Products</a></li>
+                        <li><a href="contact.html" lng-tag="contact">Contact Us</a></li>
+                        
+                    
+                        <!-- Simple menu link-->
+                    </ul>
                     </div> <!--/floating-menu-->
                 </div> <!--/navigation-main-->
 
@@ -112,7 +115,7 @@
         <section class="main-header main-header-blog" style="background-image:url(assets/images/banners/banner1.jpg)">
             <header>
                 <div class="container text-center">
-                    <h2 id="heading3" class="h2 title">Our story</h2>
+                    <h2 class="h2 title" lng-tag="our_story">Our story</h2>
                 </div>
             </header>
         </section>
@@ -127,9 +130,9 @@
                 <header>
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h1 class="h2 title">A bit of history</h1>
+                            <h1 class="h2 title" lng-tag="a_bit_of_history">A bit of history</h1>
                             <div class="text">
-                                <p>Munazam Furnishing, a pioneer in the supply of residential furniture and other furnishings, has made it possible for our customers to create luxuriously furnished accommodations. Our architects and designers carefully monitor the environment, they accept and develop changes, research fashion and architecture, and transform them into innovative design.</p>
+                                <p lng-tag="munazam_furnishing_a_pioneer">Munazam Furnishing, a pioneer in the supply of residential furniture and other furnishings, has made it possible for our customers to create luxuriously furnished accommodations. Our architects and designers carefully monitor the environment, they accept and develop changes, research fashion and architecture, and transform them into innovative design.</p>
                             </div>
                         </div>
                     </div>
@@ -141,20 +144,20 @@
                     <div class="col-md-5 history-image" style="background-image:url(assets/images/banners/banner5.jpg)">
                         <div class="history-title">
                             <h2 class="title">2000</h2>
-                            <p style="font-size: 15px;">The beginning</p>
+                            <p style="font-size: 15px;" lng-tag="the_beginning">The beginning</p>
                         </div>
                     </div>
                     <div class="col-md-7 history-desc">
-                        <div class="h5 title">This is how it's began</div>
-                        <p>
+                        <div class="h5 title" lng-tag="this_is_how_it_began">This is how it's began</div>
+                        <p lng-tag="since_2000_munazam_urnishing">
                             Since 2000 Munazam Furnishing has been serving in the manufacturing of residential and contract furniture and furnishings.
                             We started out with the team of five people simply offering carpets and curtains. Today Employing more than 50+ staff, with an inclusive solution for furniture, furnishings, sofas, arabic majlis, wallpapers, white goods, flooring, upholstery and window coverings.
                         </p>
-                        <p>
+                        <p lng-tag="with_the_addition_of_two_more">
                             
                             With the addition of two more branches in the UAE, we can better serve our clients by providing furniture to local governments, housing associations, student accomodations, serviced apartments, care and nursing homes.
                         </p>
-                        <p>
+                        <p lng-tag="we_offer_free_quick_delivery">
 
                             We offer free, quick delivery, installation, and disposal as part of our services. Blinds and flooring measurements are provided without charge, ensuring a perfect fit. Warranty & Product Support Team, Special Projects Manager, and Dedicated Customer Service Agents are always there for a high quality experience.
 
@@ -173,9 +176,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-offset-2 col-md-8 text-center">
-                        <h1 class="h2 title">We love our work</h1>
+                        <h1 class="h2 title" lng-tag="we_love_our_work">We love our work</h1>
                         <div class="text">
-                            <p>
+                            <p lng-tag="the_best_part">
                                 We believe in creativity as one of the major forces of progress. The best part? Our expert designers will fabricate the best products that fit your style, your space and your budget.
                             </p>
                         </div>
@@ -195,8 +198,8 @@
             <header>
                 <div class="row">
                     <div class="col-md-offset-2 col-md-8 text-center">
-                        <h2 class="title">Our Latest Products</h2>
-                        <div class="text">
+                        <h2 class="title" lng-tag="our_latest_products">Our Latest Products</h2>
+                        <div class="text" lng-tag="our_services_team_is_dedicated">
                             <p>Our service team is dedicated to providing you with the finest furnishings. <br> 
                             Check out what's new in our catalogue.</p>
                         </div>
@@ -261,7 +264,7 @@
                     </div>
 
                     <div style="text-align: center;" class="animated" data-animation="fadeInUp">
-                        <a href="products.html" class="btn btn-main">Explore More</a>
+                        <a href="products.html" class="btn btn-main" lng-tag="explore_more">Explore More</a>
                     </div>
 
 
@@ -275,9 +278,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h1 class="h2 title">What Our Clients Say</h1>
+                            <h1 class="h2 title" lng-tag="what_our_clients_say">What Our Clients Say</h1>
                             <div class="text">
-                                <p>
+                                <p lng-tag="we_want_to_establish_long_lasting">
                                    We want to establish long-lasting ties with our customers. We achieved customer's satisfaction with our top-notch customer service and innovative design ideas.
                                 </p>
                             </div>
@@ -302,7 +305,7 @@
                             </div>
                             <div class="text">
                                 <h4>Jenna Hale</h4>
-                                <p>I appreciate your fantastic customer service.
+                                <p lng-tag="i_appreciate_your_fantastic_customer_service">I appreciate your fantastic customer service.
                                 The delivery men were also excellent. Very fast, courteous, and professional! <br> The entire experience was excellent! <br> Keep up your wonderful work.</p>
                             </div>
                             <div class="more">
@@ -324,7 +327,7 @@
                             </div>
                             <div class="text">
                                 <h4>Glen Jordan</h4>
-                                <p>I just had a beautiful white sofa delivered and your delivery team was fantastic. They took great care not to get any dirt on my sofa. <br> The product quality is awesome.<br> Very much satisfied.</p>
+                                <p lng-tag="i_just_had_a_beautiful_white">I just had a beautiful white sofa delivered and your delivery team was fantastic. They took great care not to get any dirt on my sofa. <br> The product quality is awesome.<br> Very much satisfied.</p>
                             </div>
                             <div class="more">
                                 <div class="rating">
@@ -345,7 +348,7 @@
                             </div>
                             <div class="text">
                                 <h4>Lea Nils</h4>
-                                <p>I'm just here to acknowledge you on your design consultancy. Your staff member has been very helpful in offering recommendations for paint, fabric/accessories, and carpeting to go with the furniture we recently bought. Had great experience.</p>
+                                <p lng-tag="i_am_just_here_to_acknowledge">I'm just here to acknowledge you on your design consultancy. Your staff member has been very helpful in offering recommendations for paint, fabric/accessories, and carpeting to go with the furniture we recently bought. Had great experience.</p>
                             </div>
                             <div class="more">
                                 <div class="rating">
@@ -366,7 +369,7 @@
                             </div>
                             <div class="text">
                                 <h4>Nora Star</h4>
-                                <p>Thank you Munazam Furnishing!
+                                <p lng-tag="thank_you_munazam_furnishing">Thank you Munazam Furnishing!
                                 We had a great experience choosing our custom furniture options every step of the way. From showroom to delivery your staff is friendly and helpful. <br> We will be back soon. <br>
                                 Appreciate your help so much.</p>
                             </div>
@@ -388,7 +391,7 @@
                             </div>
                             <div class="text">
                                 <h4>Sheikh Abdul</h4>
-                                <p>Everything about this Arabic Majlis is wonderful! It came quicker than I imagined, and in person, it looks even prettier. Such amazing needlework and vibrant colours in the pattern. Their sense of interior design is remarkable. The fabric is gorgeous, and the seating is really comfortable.</p>
+                                <p lng-tag="everything_about_this_arabic_majlis">Everything about this Arabic Majlis is wonderful! It came quicker than I imagined, and in person, it looks even prettier. Such amazing needlework and vibrant colours in the pattern. Their sense of interior design is remarkable. The fabric is gorgeous, and the seating is really comfortable.</p>
                             </div>
                             <div class="more">
                                 <div class="rating">
@@ -408,7 +411,7 @@
                             </div>
                             <div class="text">
                                 <h4>Ahmed Farooq</h4>
-                                <p>We love the look of the wave and the uniformity of curtains, with little effort they sit like they have been professionally dressed. We thought they were great value for money and everyone that comes into our house comments on how they finish off the room!</p>
+                                <p lng-tag="we_love_the_look_of_the_wave">We love the look of the wave and the uniformity of curtains, with little effort they sit like they have been professionally dressed. We thought they were great value for money and everyone that comes into our house comments on how they finish off the room!</p>
                             </div>
                             <div class="more">
                                 <div class="rating">
@@ -426,30 +429,32 @@
         </section>
 
         <!-- ================== Footer  ================== -->
-  <footer>
+        <footer>
             <div class="container">
-
+        
                 <!--footer showroom-->
                 <div class="footer-showroom footer-showroom-single">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h2>Visit our showroom</h2>
-                            <p>Beside FAB bank, Baniyas center Road, Sharq 9, Abu Dhabi </p>
-                            <p>Mon - Sat: 10 am - 6 pm &nbsp; &nbsp; | &nbsp; &nbsp; Sun: 12pm - 2 pm</p>
+                            <h2 lng-tag="visit_our_showroom">Visit our showroom</h2>
+                            <p lng-tag="address">Beside FAB bank, Baniyas center Road, Sharq 9, Abu Dhabi </p>
+                            <p lng-tag="timings">Mon - Sat: 10 am - 6 pm &nbsp; &nbsp; | &nbsp; &nbsp; Sun: 12pm - 2 pm</p>
                         </div>
                         <div class="col-sm-6">
                             <!--footer links-->
                             <div class="footer-links">
-                                <h2>Our Contact Details</h2>
-                                <p><i style="font-size: 16px; margin-right: 10px;" class="fa fa-whatsapp"></i>055 361 8077 &nbsp; &nbsp; | &nbsp; &nbsp; <i style="margin-right: 10px; font-size: 16px;" class="fa fa-phone"></i>02 583 4119  </p>
-                                <p><i  style="font-size: 22px; margin-right: 10px;" class="fa fa-mobile"></i> 055 767 5182 &nbsp; &nbsp; | &nbsp; &nbsp; <i style="font-size: 22px; margin-right: 10px;" class="fa fa-mobile"></i> 055 887 1899</p>
+                                <h2 lng-tag="our_contact_details">Our Contact Details</h2>
+                                <p><i style="font-size: 16px; margin-right: 10px;" class="fa fa-whatsapp"></i>050 707 2004 &nbsp; &nbsp; |
+                                    &nbsp; &nbsp; <i style="margin-right: 10px; font-size: 16px;" class="fa fa-phone"></i>02 583 4119 </p>
+                                <p><i style="font-size: 22px; margin-right: 10px;" class="fa fa-mobile"></i> 052 604 5355 &nbsp; &nbsp; | &nbsp;
+                                    &nbsp; <i style="font-size: 22px; margin-right: 10px;" class="fa fa-mobile"></i> 055 887 1899</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
+        
                 <!--footer social-->
-
+        
                 <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-6">
@@ -457,8 +462,11 @@
                         </div>
                         <div class="col-sm-6 links">
                             <ul>
-                                <li><a href="https://web.facebook.com/munazamfurnishing/"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/munazzam.furnishing/"><i class="fa fa-instagram"></i></a></li>
+        
+                                <li><a href="https://web.facebook.com/munazamfurnishing/"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/munazzam.furnishing/"><i class="fa fa-instagram"></i></a>
+                                </li>
                                 <li><a href="https://twitter.com/MunazamFurnish"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="mailto:munazzamshaikh@gmail.com"><i class="fa fa-envelope"></i></a></li>
                             </ul>
@@ -480,5 +488,7 @@
     <script src="js/jquery.ion.rangeSlider.js"></script>
     <script src="js/jquery.isotope.pkgd.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/translate.js"></script>
+
 </body>
 </html>
