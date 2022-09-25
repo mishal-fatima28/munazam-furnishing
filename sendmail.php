@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 		$mail->Username = 'munazamfurnishing@gmail.com';
-		$mail->Password = 'dqgcegfnygwrxaiu';
+		$mail->Password = 'gnyxpvmcbpeysnzr';
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 		$mail->Port = 587;
 
